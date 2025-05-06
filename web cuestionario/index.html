@@ -108,17 +108,17 @@
         const questions = [ /* ... question data ... */
              {
                 statement: "¿Cuándo se entregan las llaves del camión, el teléfono y las boletas?",
-                correctAnswer: "Después de la matinal",
-                distractors: ["Antes de la matinal", "Durante la pausa del almuerzo", "Al finalizar la ruta"],
-                explanationCorrect: "¡Correcto! Según el procedimiento Pre Ruta, las llaves, el teléfono y las boletas se entregan siempre *después* de finalizar la matinal.",
-                explanationIncorrect: "Incorrecto. El procedimiento indica que las llaves, teléfono y boletas se entregan *después* de la matinal, una vez concluidos los temas del día."
+                correctAnswer: "Al finalizar la matinal se entregan al chofer",
+                distractors: ["Al comienzo de la matinal", "Al llegar al CD la retiro en modulacion", "Al iniciar la ruta"],
+                explanationCorrect: "¡Correcto! Las llaves, el teléfono y las boletas se entregan al chofer al finalizar la matinal.",
+                explanationIncorrect: "Incorrecto. El procedimiento indica que las llaves, teléfono y boletas se entregan solo al chofer al final de la matinal, una vez concluidos los temas del día."
             },
             {
-                statement: "¿Cuál es la asistencia obligatoria a las matinales por semana?",
+                statement: "¿Cuantas asistencias a las matinales debo cumplir por semana?",
                 correctAnswer: "3 matinales",
                 distractors: ["Todas las matinales", "1 matinal", "5 matinales"],
                 explanationCorrect: "¡Correcto! La norma es clara: se dictan matinales de lunes a viernes y es obligatorio participar activamente de *3 por semana*.",
-                explanationIncorrect: "Incorrecto. Aunque hay matinales todos los días hábiles, la obligación es asistir a *3 por semana*, no a todas ni a un número diferente."
+                explanationIncorrect: "Incorrecto. Aunque hay matinales todos los días hábiles, la obligación es asistir a *3 por semana*."
             },
             {
                 statement: "El tiempo máximo desde que se ficha ingreso hasta salir a reparto (liberación) es de:",
@@ -130,9 +130,9 @@
              {
                 statement: "¿Cómo se debe realizar el check de inventario en BEES?",
                 correctAnswer: "Con todos los EPP colocados",
-                distractors: ["Sin EPP", "Solo con casco", "Antes de abrir la lona"],
-                explanationCorrect: "¡Correcto! La seguridad es primordial. El check de inventario en BEES se hace abriendo la lona y *con todos los Equipos de Protección Personal (EPP) colocados*.",
-                explanationIncorrect: "Incorrecto. Por seguridad, el check de inventario en BEES requiere tener *todos los EPP colocados* mientras se controla la carga junto al camión."
+                distractors: ["Sin EPP", "Con los guantes", "Con las gafas protectoras"],
+                explanationCorrect: "¡Correcto! La seguridad es primordial. El check de inventario en BEES se hace controlando la carga *con todos los Equipos de Protección Personal (EPP) colocados*.",
+                explanationIncorrect: "Incorrecto. Por seguridad, al realizar el check de inventario en BEES se debe tener *todos los EPP colocados* mientras se controla la carga junto al camión."
             },
             {
                 statement: "Si el check de seguridad del camión en GINFO da un 'NO OK' crítico, ¿qué se debe hacer?",
@@ -143,45 +143,45 @@
             },
             {
                 statement: "¿En qué momento se debe iniciar el viaje en BEES y notificar al primer PDV?",
-                correctAnswer: "En el portón, mientras seguridad escanea",
-                distractors: ["Al llegar al primer cliente", "Antes de la matinal", "Al finalizar la carga"],
-                explanationCorrect: "¡Correcto! El inicio del viaje en BEES y la notificación al primer PDV es una tarea crítica que se hace *en el portón*, aprovechando el momento del escaneo de seguridad, antes de salir.",
-                explanationIncorrect: "Incorrecto. Para que el cliente esté avisado con tiempo y el sistema registre correctamente, la notificación al primer PDV y el inicio del viaje en BEES se hacen *en el portón*, antes de salir."
+                correctAnswer: "En el portón, mientras seguridad escanea el QR del camion",
+                distractors: ["Al llegar al primer cliente", "Antes de la matinal", "Al finalizar la matinal"],
+                explanationCorrect: "¡Correcto! El inicio del viaje en BEES y la notificación al primer PDV es una tarea crítica que se hace *en el portón al momento de salir del cd*.",
+                explanationIncorrect: "Incorrecto. El inicio del viaje en BEES se hacen *en el portón*, antes de salir y en ese momento se notifica al primer PDV a visitar."
             },
             {
                 statement: "Según las normas de calidad, la apilabilidad máxima permitida es de:",
-                correctAnswer: "2 cajones de alto",
-                distractors: ["3 cajones de alto", "1 cajón de alto", "4 cajones de alto"],
-                explanationCorrect: "¡Correcto! Para cuidar la calidad del producto y evitar roturas, la apilabilidad máxima es de *2 cajones de alto*.",
-                explanationIncorrect: "Incorrecto. La norma de calidad especifica no apilar más de *2 cajones de alto* para evitar daños al producto durante el transporte."
+                correctAnswer: "una altura de 4 cajones de alto",
+                distractors: ["una altura de 3 cajones de alto", "una altura de 5 cajones de alto", "una altura de 2 cajones de alto"],
+                explanationCorrect: "¡Correcto! Para cuidar la calidad del producto y evitar roturas, la apilabilidad máxima es de *4 cajones de alto*.",
+                explanationIncorrect: "Incorrecto. La norma de calidad especifica no apilar más de *4 cajones de alto* para evitar caidas o daños ya sea al producto o a quien lo transporte."
             },
             {
-                statement: "El objetivo de puntuación para Rate My Delivery (RMD - 5 estrellas) es de:",
+                statement: "El objetivo actual de puntuación para Rate My Delivery (RMD - 5 estrellas) es de:",
                 correctAnswer: "4.9 estrellas",
                 distractors: ["5.0 estrellas", "4.5 estrellas", "4.0 estrellas"],
                 explanationCorrect: "¡Correcto! El objetivo para Rate My Delivery (RMD) es alcanzar las *4.9 estrellas*, buscando la excelencia en el servicio de entrega percibido por el cliente.",
-                explanationIncorrect: "Incorrecto. El objetivo de servicio para RMD es muy exigente: *4.9 estrellas*. Es el indicador que mide directamente la percepción del cliente sobre la entrega."
+                explanationIncorrect: "Incorrecto. El objetivo de servicio para RMD es de: *4.9 estrellas*. Es el indicador que mide directamente la percepción del cliente sobre la entrega."
             },
             {
                 statement: "¿Para qué está disponible el número de teléfono del cliente en la app?",
                 correctAnswer: "Para contactarlo y coordinar la entrega",
-                distractors: ["Solo para emergencias", "Para ofrecerle otros productos", "Para verificar su dirección"],
+                distractors: ["Solo para emergencias", "Para ofrecerle otros productos", "Para verificar su pedido"],
                 explanationCorrect: "¡Correcto! El número del cliente está disponible en la app para que el EDD pueda ser autónomo, *contactarlo y coordinar la entrega* o resolver situaciones.",
-                explanationIncorrect: "Incorrecto. La app incluye el teléfono del cliente específicamente para *facilitar la coordinación de la entrega* y dar autonomía al EDD para resolver imprevistos."
+                explanationIncorrect: "Incorrecto. La app incluye el teléfono del cliente específicamente para facilitar la coordinación de la entrega y dar autonomía al EDD para resolver imprevistos."
             },
             {
                 statement: "¿Cuándo se debe finalizar el viaje en BEES Deliver?",
-                correctAnswer: "Al entregar el celular y llave a modulación",
-                distractors: ["Al llegar al último cliente", "Al iniciar la ruta", "Al volver al CD antes de estacionar"],
-                explanationCorrect: "¡Correcto! El viaje en BEES Deliver se finaliza como uno de los últimos pasos, *al momento de entregar el celular y la llave del camión a modulación*, cerrando el ciclo del día.",
-                explanationIncorrect: "Incorrecto. El procedimiento Post Ruta indica que el viaje en BEES se finaliza *al entregar el celular y la llave a modulación*, después de pasar por caja y preliquidación."
+                correctAnswer: "Al entregar el celular y la llave del camion a modulación",
+                distractors: ["Al llegar al último cliente", "Al ingresar al CD antes de que los ayudantes desciendan del camion", "Al volver al CD antes de estacionar"],
+                explanationCorrect: "¡Correcto! El viaje en BEES Deliver se finaliza como uno de los últimos pasos, al momento de entregar el celular y la llave del camión a modulación, cerrando el ciclo del día.",
+                explanationIncorrect: "Incorrecto. El procedimiento Post Ruta indica que el viaje en BEES se finaliza al entregar el celular y la llave a modulación, después de pasar por preliquidación y caja."
             },
             {
                 statement: "Por seguridad, ¿cuál es el límite de dinero a cobrar en efectivo en la calle?",
-                correctAnswer: "$300,000",
+                correctAnswer: "$200,000",
                 distractors: ["$500,000", "$100,000", "No hay límite"],
-                explanationCorrect: "¡Correcto! Por seguridad del equipo y para reducir el efectivo en calle, existe un límite de *\$300,000* para el cobro en efectivo.",
-                explanationIncorrect: "Incorrecto. El límite máximo de efectivo a cobrar en calle por seguridad es de *\$300,000*. Se deben fomentar otros medios de pago como Mercado Pago o depósitos."
+                explanationCorrect: "¡Correcto! Por seguridad del equipo y para reducir el efectivo en calle, existe un límite de $200,000 para el cobro en efectivo.",
+                explanationIncorrect: "Incorrecto. El límite máximo de efectivo a cobrar en calle por seguridad es de $200,000. Se deben ofrecer otros medios de pago como QR, cheques o depósitos."
             },
             {
                 statement: "¿Qué funcionalidad NO se encuentra en la app MI RUTA?",
@@ -198,18 +198,18 @@
                 explanationIncorrect: "Incorrecto. La revisión y devolución de los feedbacks de ruta se realiza con frecuencia *semanal*, para asegurar una gestión ágil y mejora continua."
             },
             {
-                statement: "El tiempo medio interno objetivo (post-ruta, desde llegar al CD hasta irse) es de:",
+                statement: "El tiempo medio interno objetivo (TMI, desde llegar al CD hasta irse) es de:",
                 correctAnswer: "30 minutos",
                 distractors: ["1 hora", "20 minutos", "Sin límite de tiempo"],
-                explanationCorrect: "¡Correcto! Similar al tiempo de liberación, el tiempo medio interno post-ruta (check de retorno, descarga, caja, etc.) tiene un objetivo de *30 minutos* para optimizar la jornada.",
-                explanationIncorrect: "Incorrecto. Para optimizar la jornada laboral, el proceso post-ruta completo (desde llegar al CD hasta fichar salida) debe completarse en un tiempo objetivo de *30 minutos*."
+                explanationCorrect: "¡Correcto! Similar al tiempo de liberación, el tiempo medio interno post-ruta (check de retorno, descarga, caja, etc.) tiene un objetivo de 30 minutos.",
+                explanationIncorrect: "Incorrecto. Para optimizar la jornada laboral, el proceso post-ruta completo (desde llegar al CD hasta fichar salida) debe completarse en un tiempo de 30 minutos."
             },
             {
                 statement: "Si hay productos no aptos que NO superan un piso de paleta, ¿dónde se desechan?",
                 correctAnswer: "En el contenedor de gatera",
-                distractors: ["En el dock de descarga con el autoelevador", "Se devuelven al proveedor", "Se guardan para revisión interna"],
-                explanationCorrect: "¡Correcto! Los productos no aptos se desechan en el *contenedor de gatera* si la cantidad es pequeña (no supera un piso de paleta).",
-                explanationIncorrect: "Incorrecto. La forma de desechar depende de la cantidad: menos de un piso de paleta va al *contenedor de gatera*. Si es más, se continúa al dock de descarga para que lo deseche el autoelevador."
+                distractors: ["En el dock de descarga con el autoelevador", "Se dejan en el camion", "Se guardan para revisión interna"],
+                explanationCorrect: "¡Correcto! Los productos no aptos se desechan en el contenedor junto al puesto de verificacion (siempre y cuando no supera un piso de paleta).",
+                explanationIncorrect: "Incorrecto. La forma de desechar depende de la cantidad: menos de un piso de paleta va al contenedor junto al puesto de verificacion. Si es más, se continúa al dock de descarga para que lo deseche el autoelevador."
             }
         ];
         // Congratulatory Messages
